@@ -20,100 +20,244 @@
 [comment]: # (respondToHashChanges: false)
 [comment]: # (Other settings are documented at https://revealjs.com/config/)
 
-SD32 | Skill Distillery | February 18, 2022
+SD32 | Skill Distillery | February 19, 2022
 
 # SD32
 
-Week Recap
+Topics by week
 
 [comment]: # (!!!)
 
-# Overview
-
-- Days 0-4 (M-F)
+# Week 1
 
 [comment]: # (!!!)
 
 # Day 1
 
-- Data types: `int, double, char, boolean, String`
-- Default values: i.e. `boolean = false`
+[comment]: # (!!!)
+
+#
+
+- Data types:
+  - `int, double, char, boolean, String`
+- Default values:
+  - `boolean = false`
+
+[comment]: # (!!!)
+
+#
+
 - Variables: declaration, assignment
 - Literals: constant value
-- Class: `class Name {...}`
-- Main method: `public static void main(String[] args) {...}`
 
 [comment]: # (!!!)
 
-# Day 1
+#
 
-- Assignment: (variable) `=` (value or expression)
-- Operators: Equality ()`==, !=`), Conditional(`&&, ||`)
-- Screen input: Scanner `(java.util.Scanner)`
-- Screen output: "sysout" `(System.out.print, println)`
+- Class:
+  - `class Name {...}`
 
 [comment]: # (!!!)
 
-# Day 2
+#
 
-- Expression: a construct made up of variables, operators, and method invocations, which are constructed according to the syntax of the language, that evaluates to a single value
+- Main method:
+  - `public static void main(String[] args) {...}`
 
 [comment]: # (!!!)
 
 # Day 2
 
-- Operators: `=, +=, -=, *=, %=`
-- Arithmetic: `+, -, *, %, ==`
-- Auto-Increment: `++/--`
-- Eclipse IDE (navigation, shortcuts)
+[comment]: # (!!!)
+
+#
+
+- Assignment:
+  - (variable) `=` (value or expression)
+- Operators:
+  - Equality: `==, !=`
+  - Conditional: `&&, ||`
 
 [comment]: # (!!!)
 
-# Day 2
+#
 
-- Control flow: `if (condition) {..} else if (condition) {...} else {...}`
-- String comparison: `.equals` -- i.e. `fName.equals(lName)`
+- Screen input:
+  - Scanner `(java.util.Scanner)`
+
+- Screen output: "sysout"
+  - `System.out.print()`
+  - `System.out.println()`
+
+[comment]: # (!!!)
+
+# Day 3
+
+[comment]: # (!!!)
+
+#
+
+- Expression:
+  - evaluates to a single value
+
+[comment]: # (!!!)
+
+#
+
+- Operators:
+  - `=, +=, -=, *=, %=`
+- Arithmetic:
+  - `+, -, *, %, ==`
+- Auto-Increment:
+  - `++/--`
+
+[comment]: # (!!!)
+
+#
+
+- Eclipse IDE
+  - navigation
+  - shortcuts
+
+[comment]: # (!!!)
+
+#
+
+- Control flow:
+  - `if (condition) {..}`
+  - `else if (condition) {...}`
+  - `else {...}`
+
+[comment]: # (!!!)
+
+#
+
+- String comparison:
+  - `.equals`
+    - i.e. `fName.equals(lName)`
 
 [comment]: # (!!!)
 
 # Day 4
 
-- Boolean: expression that evaluates to `true` or `false`
-- Ternary operator: `condition ? true : false`
-- Switch: `switch (onVariable) { case 1: ...; default: ...}`
-- While: `while (boolean condition) {...}`
-- Do-while: `do` executes, then based on `while` consition
+[comment]: # (!!!)
+
+#
+
+- Boolean: expression that evaluates to:
+  - `true` or `false`
+
+- Ternary operator:
+  - `condition ? true : false`
+
+[comment]: # (!!!)
+
+#
+
+- Switch:
+  - `switch (onVariable) {`
+  - `case 1: ...;`
+  - `default: ...}`
+
+[comment]: # (!!!)
+
+#
+
+- While:
+  - `while (boolean condition) {...}`
+- Do-while:
+  - `do {...} while (condition)`
+[comment]: # (!!!)
+
+#
+
 - Pair Programming
+  - Driver
+  - Navigator
 
 [comment]: # (!!!)
 
-# Day 4
+#
 
-- Methods: `public static void methodName() { ...}`
-- For loops: `for (int i = 0; i <= 10; i++) { ...}`
-- Break: `break` escapes loop
-- Continue: `continue` passes control to next iteration
+- Methods:
+  - `methodName() {
+    ...body
+    }`
+
+[comment]: # (!!!)
+
+#
+
+- For loops:
+  - `for (int i = 0; i <= 10; i++) { ...}`
+
+[comment]: # (!!!)
+
+#
+
+- Break:
+  - `break` escapes loop
+- Continue:
+  - `continue` passes control to next iteration
 
 [comment]: # (!!!)
 
 # Day 5
 
-- Number systems: binary (base2), octal (base8), decimal (base10), hexadecimal (base16)
-- printf(): print formatted strings
-- Data types
-- Switch and data types
-- Casting data types: implicit & explicit conversions
+[comment]: # (!!!)
+
+#
+
+- Number systems:
+  - binary (base2)
+  - octal (base8)
+  - decimal (base10)
+  - hexadecimal (base16)
 
 [comment]: # (!!!)
 
-# Eclipse
+#
+
+- printf():
+  - print formatted strings
+
+[comment]: # (!!!)
+
+#
+
+- Data types
+- Switch and data types
+- Casting data types:
+  - implicit, explicit conversions
+
+[comment]: # (!!!)
+
+# Appendices
+
+[comment]: # (!!!)
+
+# Eclipse shortcuts
 
 - Autosuggest: `CTRL + Space`
 - Format: `CMD + Shift + F`
 - Import automatically: `CMD + Shift + O`
 - Run program: `CMD + Shift + Fn + F11`
+
+[comment]: # (!!!)
+
+# Eclipse shortcuts
+
 - Delete line: `CMD + D`
 - Move line up: `Option + Up/Down arrow`
 - Duplicate line: `CMD + Option + Up/Down arrow`
+
+[comment]: # (!!!)
+
+# Git shortcuts
+
+- Initialize: `git init`
+- Add: `git add .`
+- Commit: `git commit -m "commit message"`
+- Push: `git push`
 
 [comment]: # (!!!)
