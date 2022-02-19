@@ -8,12 +8,11 @@ Summary slides of topics covered by week.
 - Run
 - Contribute (pull requests welcome)
 
-### WEEK 1
+### UNIT 1
 
-- Days 1-5
+- [Week 1](https://acary.github.io/SD32/sd32-week1/presentation/index.html)
+- [Week 2] TBD
 
-### WEEK 2
-
-- Days 6-10
+###
 
 ...
