@@ -232,6 +232,14 @@ Topics by week
 
 [comment]: # (!!!)
 
+# Day 6
+
+[comment]: # (!!!)
+
+# Day 7
+
+[comment]: # (!!!)
+
 # Appendices
 
 [comment]: # (!!!)
