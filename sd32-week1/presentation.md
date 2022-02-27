@@ -36,33 +36,41 @@ Topics by week
 
 [comment]: # (!!!)
 
-#
+### Data types
 
-- Data types:
-  - `int, double, char, boolean, String`
-- Default values:
-  - `boolean = false`
+```
+int
+double
+char
+boolean
+String
+```
 
-[comment]: # (!!!)
+### Default values
 
-#
-
-- Variables: declaration, assignment
-- Literals: constant value
-
-[comment]: # (!!!)
-
-#
-
-- Class:
-  - `class Name {...}`
+`boolean` : `false`
 
 [comment]: # (!!!)
 
-#
+***Variables***: declaration, assignment
 
-- Main method:
-  - `public static void main(String[] args) {...}`
+***Literals***: constant value
+
+[comment]: # (!!!)
+
+### Class
+
+```
+class Name {...}
+```
+
+[comment]: # (!!!)
+
+## Main method:
+
+```
+public static void main(String[] args) {...}
+```
 
 [comment]: # (!!!)
 
@@ -70,24 +78,45 @@ Topics by week
 
 [comment]: # (!!!)
 
-#
+## Assignment
 
-- Assignment:
-  - (variable) `=` (value or expression)
-- Operators:
-  - Equality: `==, !=`
-  - Conditional: `&&, ||`
+(variable) `=` (value or expression)
 
 [comment]: # (!!!)
 
-#
+## Operators
 
-- Screen input:
-  - Scanner `(java.util.Scanner)`
+Equality
 
-- Screen output: "sysout"
-  - `System.out.print()`
-  - `System.out.println()`
+```
+==
+!=
+```
+
+Conditional
+
+```
+&&
+||
+```
+
+[comment]: # (!!!)
+
+### Screen input
+
+***Scanner***
+
+```
+import java.util.Scanner;
+Scanner sc = new Scanner(System.in);
+```
+
+### Screen output
+
+```
+System.out.print()
+System.out.println()
+```
 
 [comment]: # (!!!)
 
@@ -95,46 +124,48 @@ Topics by week
 
 [comment]: # (!!!)
 
-#
+## Expression
 
-- Expression:
-  - evaluates to a single value
-
-[comment]: # (!!!)
-
-#
-
-- Operators:
-  - `=, +=, -=, *=, %=`
-- Arithmetic:
-  - `+, -, *, %, ==`
-- Auto-Increment:
-  - `++/--`
+Evaluates to a single value
 
 [comment]: # (!!!)
 
-#
+Operators:
 
-- Eclipse IDE
-  - navigation
-  - shortcuts
+`=, +=, -=, *=, %=`
 
-[comment]: # (!!!)
+Arithmetic:
 
-#
+`+, -, *, %, ==`
 
-- Control flow:
-  - `if (condition) {..}`
-  - `else if (condition) {...}`
-  - `else {...}`
+Auto-Increment:
+
+`++, --`
 
 [comment]: # (!!!)
 
-#
+## Eclipse IDE
 
-- String comparison:
-  - `.equals`
-    - i.e. `fName.equals(lName)`
+- navigation
+- shortcuts
+
+[comment]: # (!!!)
+
+## Control flow
+
+```
+if (condition) {..}
+else if (condition) {...}
+else {...}
+```
+
+[comment]: # (!!!)
+
+## String comparison
+
+`.equals`
+
+`fName.equals(lName)`
 
 [comment]: # (!!!)
 
@@ -142,63 +173,60 @@ Topics by week
 
 [comment]: # (!!!)
 
-#
+***Boolean***:
 
-- Boolean: expression that evaluates to:
-  - `true` or `false`
+`true` or `false`
 
-- Ternary operator:
-  - `condition ? true : false`
+***Ternary operator***:
 
-[comment]: # (!!!)
-
-#
-
-- Switch:
-  - `switch (onVariable) {`
-  - `case 1: ...;`
-  - `default: ...}`
+`condition ? true : false`
 
 [comment]: # (!!!)
 
-#
+***Switch***:
 
-- While:
-  - `while (boolean condition) {...}`
-- Do-while:
-  - `do {...} while (condition)`
-[comment]: # (!!!)
-
-#
-
-- Pair Programming
-  - Driver
-  - Navigator
+```
+switch (onVariable) {
+case 1: ...;
+default: ...}
+```
 
 [comment]: # (!!!)
 
-#
+***While***:
+- `while (boolean condition) {...}`
 
-- Methods:
-  - `methodName() {
-    ...body
-    }`
-
-[comment]: # (!!!)
-
-#
-
-- For loops:
-  - `for (int i = 0; i <= 10; i++) { ...}`
+***Do-while***:
+- `do {...} while (condition)`
 
 [comment]: # (!!!)
 
-#
+## Pair Programming
 
-- Break:
-  - `break` escapes loop
-- Continue:
-  - `continue` passes control to next iteration
+- Driver
+- Navigator
+
+[comment]: # (!!!)
+
+## Methods:
+
+`methodName() {...}`
+
+[comment]: # (!!!)
+
+## For loops:
+
+`for (int i = 0; i <= 10; i++) {...}`
+
+[comment]: # (!!!)
+
+***Break***:
+
+- `break` escapes loop
+
+***Continue***:
+
+- `continue` passes control to next iteration
 
 [comment]: # (!!!)
 
@@ -206,29 +234,28 @@ Topics by week
 
 [comment]: # (!!!)
 
-#
+## Number systems:
 
-- Number systems:
-  - binary (base2)
-  - octal (base8)
-  - decimal (base10)
-  - hexadecimal (base16)
-
-[comment]: # (!!!)
-
-#
-
-- printf():
-  - print formatted strings
+- binary (base2)
+- octal (base8)
+- decimal (base10)
+- hexadecimal (base16)
 
 [comment]: # (!!!)
 
-#
+## printf():
 
-- Data types
-- Switch and data types
-- Casting data types:
-  - implicit, explicit conversions
+- print formatted strings
+
+[comment]: # (!!!)
+
+### More on Data types
+
+Switch and data types
+
+Casting data types:
+- implicit, explicit conversions
+- `(int)`
 
 [comment]: # (!!!)
 
@@ -236,7 +263,187 @@ Topics by week
 
 [comment]: # (!!!)
 
+***Scaler***: hold one value
+
+***Arrays***: collection of multiple values (same data type)
+
+[comment]: # (!!!)
+
+## Arrays
+
+Operator: []
+
+```
+int arrayOfInts[];
+int[] arrayOfInts;
+```
+
+[comment]: # (!!!)
+
+## Array Shortcut
+
+```
+String[] weekday = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday"};
+char[] classGrades = {'A', 'B', 'C', 'A', 'B', 'C'};
+double[] avgMonthPrecip = {123.45, 321.54, 54.45};
+```
+
+[comment]: # (!!!)
+
+## Instantiate
+
+`new` keyword
+
+```
+String[] weekdays = new String[7]; // 0..6
+char grades[] = new char[6]; // 0..5
+```
+
+[comment]: # (!!!)
+
+## Default values
+
+```
+int: 0
+double: 0.0
+char: \u0000
+boolean: false
+objects: null
+```
+
+[comment]: # (!!!)
+
+## Objects
+
+- `static`: belong to class, not instance
+
+[comment]: # (!!!)
+
+## Strings
+
+```
+.equals(String anotherString)
+.equalsIgnoreCase(String anotherString)
+.charAt(int index)
+.toLowerCase()
+.toUpperCase()
+```
+
+[comment]: # (!!!)
+
 # Day 7
+
+[comment]: # (!!!)
+
+### Class Instantiation
+
+```
+NameGenerator nameGen = new NameGenerator();
+String newFirstName = nameGen.generateFirstName(firstName);
+```
+
+[comment]: # (!!!)
+
+### Character Array
+
+`char[] charsInName = name.toUpperCase().toCharArray();`
+
+[comment]: # (!!!)
+
+### Modulo
+
+`generatedName = names[index % names.length];`
+
+[comment]: # (!!!)
+
+### For Each Loop
+
+```
+int[] odds = {1, 3, 5, 7}
+for (int num : odds) {
+    System.out.println(num);
+}
+
+String[] strings = new String[4];
+for (String s : strings) {
+    System.out.prin(s + " ");
+}
+```
+
+[comment]: # (!!!)
+
+## Break and Continue
+
+- break: breaks out of loop
+- continue: proceeds to next iteration
+
+[comment]: # (!!!)
+
+# Advanced Arrays
+
+[comment]: # (!!!)
+
+## Two-dimensional arrays
+
+- [row][column]
+- `int[][] arr2d = new int[5][5];`
+
+[comment]: # (!!!)
+
+## For each
+
+```
+char[] board[] = new char[3][]
+for (char[] row : board) {
+    for (char element : row) {
+        System.out.print(element);
+    }
+    System.out.println();
+}
+```
+
+[comment]: # (!!!)
+
+Creation shortcuts
+
+```
+String[] lz = {"Robert", "Jimmy", "John"};
+String[] im = {"Bruce", "Nicko", "Janick"};
+String[] gnr = {"Axel", "Slash", "Izzy"};
+String[][] = {lz, im, gnr};
+```
+
+[comment]: # (!!!)
+
+Creation shortcuts
+
+```
+String[][] legends = {
+  {"Robert", "Jimmy", "John"},
+  {"Bruce", "Nicko", "Janick"},
+  {"Axel", "Slash", "Izzy"};
+};
+```
+
+[comment]: # (!!!)
+
+## Varargs
+
+- must be last parameter in method
+
+`public static void main(String... stringArr) {...}`
+
+[comment]: # (!!!)
+
+### Varargs
+
+```
+public void doIt(int... ints) {
+    for (int i = 0; i < ints.length; i++) {
+        System.out.println(ints[i]);
+    }
+}
+```
 
 [comment]: # (!!!)
 
